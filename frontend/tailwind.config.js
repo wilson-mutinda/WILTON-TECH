@@ -5,7 +5,16 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        wilton: {
+          navy: "#0A1F44",
+          blue: "#2AACE2",
+          pink: "#1E1E2F",
+          gray: "#BA8FA3"
+        }
+      }
+    },
   },
   plugins: [],
 }
