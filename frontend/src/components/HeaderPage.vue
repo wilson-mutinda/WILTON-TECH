@@ -11,14 +11,47 @@
         >
       </div>
 
-      <!-- menu -->
-      <nav class="flex gap-6 text-white font-medium">
+      <!-- desktop menu -->
+      <nav class="hidden md:flex gap-6 text-white font-medium">
         <a href="#">Home</a>
         <a href="#">About</a>
         <a href="#">Services</a>
         <a href="#">Contact</a>
       </nav>
 
+      <!-- mobile menu -->
+       <div class="md:hidden cursor-pointer">
+        <button type="button" @click="toggleMenu">
+          <img src="/hamburger.png" alt="hamburger" width="20">
+        </button>
+       </div>
+
     </div>
+
+    <!-- mobile dropdown -->
+     <div v-if="mobileMenu" class="md:hidden bg-wilton-blue px-6 pb-4">
+      <nav class="flex flex-col gap-4 text-white font-medium">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </nav>
+     </div>
   </header>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      mobileMenu: false
+    }
+  },
+
+  methods: {
+    toggleMenu() {
+      this.mobileMenu = !this.mobileMenu
+    }
+  }
+}
+</script>
