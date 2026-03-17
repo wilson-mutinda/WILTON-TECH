@@ -85,10 +85,19 @@
                     <!-- fourth section -->
                     <div class="">
                         <h3 class="text-white font-medium mb-2 underline">Contact Us</h3>
-                        <div class="flex flex-col space-y-2 text-white">
-                            <p>Nairobi, Kenya</p>
-                            <p>+254 XXX XXX XXX</p>
-                            <p>info@wiltontechnologies.com</p>
+                        <div class="flex flex-col space-y-4 text-white">
+                            <div class="flex items-center gap-2">
+                                <img src="/map-pin-house.png" alt="location" width="24" class="invert">
+                                <p>Nairobi, Kenya</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="/phone.png" alt="phone" width="24" class="invert">
+                                <p>+254 XXX XXX XXX</p>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <img src="/envelope-solid-full.svg" alt="email" width="24" class="invert">
+                                <p>info@wiltontechnologies.com</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -102,7 +111,7 @@
                 <!-- copyright -->
                  <div class="flex items-center gap-1">
                     <img src="/copyright.png" alt="copyright" class="invert w-4">
-                    <p class="text-white">{{currentYear}} Wilton Technologies. All rights reserved.</p>
+                    <p class="text-white">{{currentYear}} Wilton Technologies LTD. All rights reserved.</p>
                  </div>
                </div>
          </div>
