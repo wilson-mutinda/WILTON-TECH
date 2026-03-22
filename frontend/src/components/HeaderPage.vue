@@ -1,5 +1,5 @@
 <template>
-  <header class="w-full bg-wilton-blue">
+  <header class="w-full fixed top-0 left-0 z-50 bg-wilton-blue">
     <div class="max-w-7xl mx-auto flex items-center justify-between px-6 h-16">
 
       <!-- logo -->
