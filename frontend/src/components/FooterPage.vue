@@ -63,11 +63,11 @@
                     <div class="">
                         <h3 class="text-white font-medium mb-2 underline">Quick Links</h3>
                         <nav class="flex flex-col gap-4 text-white">
-                            <a class="hover:text-wilton-gray w-fit" href="#">Home</a>
-                            <a class="w-fit hover:text-wilton-gray" href="#">About</a>
-                            <a class="w-fit hover:text-wilton-gray" href="#">Services</a>
-                            <a class="w-fit hover:text-wilton-gray" href="#">Portfolio</a>
-                            <a class="w-fit hover:text-wilton-gray" href="#">Contact</a>
+                            <a class="hover:text-wilton-gray w-fit" href="/">Home</a>
+                            <a class="w-fit hover:text-wilton-gray" href="/about-us">About</a>
+                            <a class="w-fit hover:text-wilton-gray" href="/services">Services</a>
+                            <!-- <a class="w-fit hover:text-wilton-gray" href="#">Portfolio</a> -->
+                            <a class="w-fit hover:text-wilton-gray" href="/contact-us">Contact</a>
                         </nav>
                     </div>
                     <!-- third section -->

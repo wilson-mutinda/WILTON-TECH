@@ -20,9 +20,9 @@
                     </div>
                     <!-- Hero CTA -->
                      <div class="mt-5 flex gap-4">
-                        <button class="rounded-md px-4 py-2 bg-wilton-blue text-white font-medium">
+                        <a href="/services" class="rounded-md px-4 py-2 bg-wilton-blue text-white font-medium">
                             Explore Services
-                        </button>
+                        </a>
                         <button class="rounded-md text-white font-medium ring-1 ring-white px-4 py-2">
                             Contact Us
                         </button>

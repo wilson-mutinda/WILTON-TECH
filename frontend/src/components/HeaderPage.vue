@@ -13,10 +13,10 @@
 
       <!-- desktop menu -->
       <nav class="hidden md:flex gap-6 text-white font-medium">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
+        <a href="/">Home</a>
+        <a href="/about-us">About</a>
+        <a href="/services">Services</a>
+        <a href="/contact-us">Contact</a>
       </nav>
 
       <!-- mobile menu -->
@@ -31,10 +31,10 @@
     <!-- mobile dropdown -->
      <div v-if="mobileMenu" class="md:hidden bg-wilton-blue px-6 pb-4">
       <nav class="flex flex-col gap-4 text-white font-medium">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
+        <a href="/">Home</a>
+        <a href="/about-us">About</a>
+        <a href="/services">Services</a>
+        <a href="/contact-us">Contact</a>
       </nav>
      </div>
   </header>
